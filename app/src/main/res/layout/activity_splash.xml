@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/capture2kopy"
+        android:layout_centerInParent="true"
+       />
+    <TextView
+        android:id="@+id/WALLZONE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WALLZONE"
+        android:textSize="25sp"
+        android:textColor="#303030"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karışık Duvar Kağıtları"
+        android:textSize="20sp"
+        android:textColor="#303030"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/WALLZONE"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T-CORPORATION"
+        android:textSize="10sp"
+        android:textColor="#e0e0e0"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

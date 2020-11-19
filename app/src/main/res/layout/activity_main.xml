@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fff"
+        android:id="@+id/toolBar"
+        app:titleTextColor="#2B2323"
+        app:title="@string/app_name">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolBar"
+        android:id="@+id/progressBar"
+        android:layout_marginTop="200dp"
+       />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:id="@+id/imageView"
+        android:layout_toRightOf="@id/left"
+        android:layout_toLeftOf="@id/right"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/toolBar"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategoriler →"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_above="@id/recycleView"
+        android:layout_margin="6dp"
+        android:id="@+id/SonEklenen"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="1dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="400dp"
+        android:id="@+id/right"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="5dp"
+       android:layout_alignParentRight="true"
+        android:layout_below="@id/toolBar"
+        android:background="@drawable/buttontasarimi"
+        android:src="@drawable/right"/>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/left"
+        android:layout_marginLeft="2dp"
+       android:layout_alignParentLeft="true"
+        android:background="@drawable/buttontasarimi2"
+        android:layout_below="@id/toolBar"
+        android:src="@drawable/left"/>
+
+
+</RelativeLayout>

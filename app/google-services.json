@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "156366627969",
+    "firebase_url": "https://wallpaperapp-9707b.firebaseio.com",
+    "project_id": "wallpaperapp-9707b",
+    "storage_bucket": "wallpaperapp-9707b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156366627969:android:a8812d090b80328c591980",
+        "android_client_info": {
+          "package_name": "com.k.WallApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156366627969-q5f3901jcq2jqpqn85occnoc69p8vd1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZe-G7vH_fJ0ym2sOz0FPCCdUJrsWEE78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156366627969-q5f3901jcq2jqpqn85occnoc69p8vd1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
